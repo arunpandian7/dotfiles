@@ -1,5 +1,5 @@
 export XDG_CONFIG_HOME=$HOME/.config
-VIM = "nvim"
+VIM="nvim"
 
 # Loading personal shell macros, envs and alias
 PERSONAL=$XDG_CONFIG_HOME/personal

@@ -7,6 +7,8 @@ plugins=(git)
 
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
+source $HOME/.zsh_profile
+
 source $ZSH/oh-my-zsh.sh
 
 # Initializing oh-my-posh
@@ -18,7 +20,6 @@ export ARCHFLAGS="-arch $(uname -m)"
 # Alias for quick config edits
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
-
 
 # pnpm
 export PNPM_HOME="/home/arun/.local/share/pnpm"
