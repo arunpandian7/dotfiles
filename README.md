@@ -73,6 +73,12 @@ sudo dnf install ripgrep
 
 It is the ultimate terminal multiplexer tool which is the core of the development workflow. Mostly it will come default with the operating system.
 
+TMUX also needs TPM package manager for the plugins and themes we did for TMUX.
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 ### Lazygit
 
 Git client interface which is a terminal based user interface.
@@ -80,4 +86,12 @@ Git client interface which is a terminal based user interface.
 ```bash
 sudo dnf copr enable atim/lazygit -y
 sudo dnf install lazygit
+```
+
+### PNPM
+
+pnpm is a node package manager and also runtime version manager
+
+```bash
+curl -fsSL https://get.pnpm.io/install.sh | sh -
 ```
