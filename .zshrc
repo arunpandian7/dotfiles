@@ -21,10 +21,8 @@ export ARCHFLAGS="-arch $(uname -m)"
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 
-# pnpm
-export PNPM_HOME="/home/arun/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
+export GOPATH=$HOME/go
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
+source $HOME/.profile

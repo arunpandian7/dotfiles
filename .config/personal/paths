@@ -1,1 +1,3 @@
 addToPathFront $HOME/.local/bin/
+addToPathFront /usr/local/cuda/bin/
+addToPathFront $HOME/.cargo/bin/
